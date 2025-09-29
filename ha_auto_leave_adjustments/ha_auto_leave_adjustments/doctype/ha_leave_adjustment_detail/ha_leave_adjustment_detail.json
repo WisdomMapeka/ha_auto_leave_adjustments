@@ -1,0 +1,26 @@
+{
+  "doctype": "DocType",
+  "name": "Ha Leave Adjustment Detail",
+  "module": "HA Auto Leave Adjustments",
+  "istable": 1,
+  "editable_grid": 1,
+  "fields": [
+    {
+      "fieldname": "leave_type",
+      "fieldtype": "Link",
+      "label": "Leave Type",
+      "options": "Leave Type",
+      "reqd": 1,
+      "in_preview": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "leave_number",
+      "fieldtype": "Float",
+      "label": "Leave Number",
+      "reqd": 1,
+      "in_preview": 1,
+      "in_list_view": 1
+    }
+  ]
+}

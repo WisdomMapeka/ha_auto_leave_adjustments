@@ -1,0 +1,53 @@
+{
+  "actions": [],
+  "autoname": "format:CUST-INV-{YYYY}-{MM}-{#####}",
+  "doctype": "DocType",
+  "is_submittable": 0,
+  "module": "ha_auto_leave_adjustments",
+  "name": "Ha Leave Adjustments Tracking",
+  "owner": "Administrator",
+
+  "fields": [
+    {
+      "fieldname": "date_run",
+      "fieldtype": "Date",
+      "label": "Today",
+      "reqd": 0
+    }
+
+  ],
+  
+  "permissions": [
+    {
+      "amend": 1,
+      "cancel": 1,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 1,
+      "write": 1
+    },
+    {
+      "cancel": 1,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "Accounts User",
+      "submit": 1,
+      "write": 1
+    },
+    {
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "Sales User",
+      "write": 1
+    }
+  ],
+  "list_view_settings": {
+    "fields": [
+      "date_run"
+    ]
+  }
+}
