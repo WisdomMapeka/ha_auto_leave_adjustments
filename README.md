@@ -5,6 +5,10 @@ This is application, automate the leave allocation accumulations of employess. I
 # How This work
 Set the leave types and the number of leave days to be used for leave allocation accumulations in this doctype `Ha Leave Adjustments Settings`
 
+Now When you create payroll entry, when you click submit button, which sometimes is found on the list view under actions button, the set number of leaves is automatically added to the new leaves which will update other fields that uses leave allocation number.
+
+This only applies to allocations that are not canceled also that are not drafts but submited.
+
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
