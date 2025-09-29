@@ -1,6 +1,6 @@
 ### Ha Auto Leave Adjustments
 
-This is application, automate the leave allocation accumulations of employess. Instead of accumulating monthlys leaves manually, this automates the process.
+This is an application, automate the leave allocation accumulations of employess. Instead of accumulating monthlys leaves manually, this automates the process.
 
 # How This work
 Set the leave types and the number of leave days to be used for leave allocation accumulations in this doctype `Ha Leave Adjustments Settings`
