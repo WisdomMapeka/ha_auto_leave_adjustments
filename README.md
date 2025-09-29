@@ -3,6 +3,7 @@
 This is application, automate the leave allocation accumulations of employess. Instead of accumulating monthlys leaves manually, this automates the process.
 
 # How This work
+Set the leave types and the number of leave days to be used for leave allocation accumulations
 
 ### Installation
 
